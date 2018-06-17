@@ -1,0 +1,27 @@
+{
+  "name": "generator-zxspectrum",
+  "version": "0.1.0",
+  "description": "Generator for the SpectNetVsc project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Yeoman",
+    "generator"
+  ],
+  "author": "Istvan Novak",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "lodash": "^4.17.10",
+    "yeoman-generator": "^2.0.5",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/lodash": "^4.14.109",
+    "@types/yeoman-generator": "^2.0.3",
+    "@types/yosay": "0.0.29"
+  }
+}
