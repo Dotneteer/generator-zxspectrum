@@ -1,0 +1,4 @@
+; Put your Z80 assembly code into code files
+Start:
+	.org #8000
+    halt
