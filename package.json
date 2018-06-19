@@ -1,17 +1,31 @@
 {
   "name": "generator-zxspectrum",
   "version": "0.1.0",
-  "description": "Generator for the SpectNetVsc project",
+  "description": "ZX Spectrum project generator for the SpectNetVsc project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
-    "Yeoman",
-    "generator"
+    "yeoman-generator",
+    "ZX Spectrum",
+    "visual studio code",
+    "vscode"
   ],
-  "author": "Istvan Novak",
+  "author": {
+    "name": "Istvan Novak",
+    "url": "http://istvannovak.me",
+    "email": "dotneteer@hotmail.com"
+  },
   "license": "MIT",
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/Dotneteer/generator-zxspectrum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dotneteer/generator-zxspectrum/issues"
+  },
+  "homepage": "https://github.com/Dotneteer/generator-zxspectrum",
   "dependencies": {
     "chalk": "^2.4.1",
     "lodash": "^4.17.10",
@@ -21,7 +35,12 @@
   "devDependencies": {
     "@types/chalk": "^2.2.0",
     "@types/lodash": "^4.14.109",
+    "@types/mocha": "^5.2.2",
     "@types/yeoman-generator": "^2.0.3",
-    "@types/yosay": "0.0.29"
+    "@types/yeoman-test": "^1.7.4",
+    "@types/yosay": "0.0.29",
+    "mocha": "^5.2.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^1.7.2"
   }
 }
