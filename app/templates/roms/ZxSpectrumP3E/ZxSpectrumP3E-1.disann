@@ -1,14 +1,16 @@
 ﻿{
-  "Labels": {},
-  "Comments": {},
-  "PrefixComments": {},
-  "Literals": {},
-  "LiteralReplacements": {},
-  "MemorySections": [
+  "labels": {},
+  "comments": {},
+  "prefixComments": {},
+  "literals": {},
+  "literalReplacements": {},
+  "memorySections": [
     {
-      "StartAddress": 0,
-      "EndAddress": 16383,
-      "SectionType": 1
+      "startAddress": 0,
+      "endAddress": 16383,
+      "sectionType": 1,
+      "lenght": 16384
     }
-  ]
+  ],
+  "disassemblyFlags": 4
 }
