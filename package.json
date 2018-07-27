@@ -1,6 +1,6 @@
 {
   "name": "generator-zxspectrum",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ZX Spectrum project generator for the SpectNetVsc project",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,9 @@
     "email": "dotneteer@hotmail.com"
   },
   "license": "MIT",
-  "repository": { 
-    "type" : "git", 
-    "url" : "https://github.com/Dotneteer/generator-zxspectrum.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dotneteer/generator-zxspectrum.git"
   },
   "bugs": {
     "url": "https://github.com/Dotneteer/generator-zxspectrum/issues"
